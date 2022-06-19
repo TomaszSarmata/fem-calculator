@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.cal-wrapper {
+    width: 400px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    margin-bottom: 0.5%;
+}
+
+
+.result-field {
+    font-size: 40px;
+    justify-content: flex-end;
+    padding: 20px 5px;
+    font-family: monospace;
+}
+
+.button {
+    height: 100px;
+    cursor: pointer;
+    font-size: 40px;
+    background-color: rgb(216, 217, 219);
+    padding: 1px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 0;
+}
+
+.button:hover {
+    background-color: rgb(239, 239, 239);
+}
+
+.button:active {
+    background-color: rgb(175, 176, 179);
+}
+
+.button-standard:last-child {
+    background-color: rgb(223, 151, 76);
+    color: white;
+}
+
+.button-standard:last-child:hover {
+    background-color: rgb(247, 176, 101);
+}
+
+.button-standard:last-child:active {
+    background-color: rgb(207, 134, 58);
+}
+
+.button-standard {
+    width: 24.5%;
+    height: 100px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.half {
+    width: 49.7%;
+}
+
+.three-quarters {
+    width: 74.8%;
+}
+
+
